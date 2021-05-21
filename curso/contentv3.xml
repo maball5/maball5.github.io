@@ -3,7 +3,7 @@
 <instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="Curso"></unicode>
+  <unicode value="Curso: Historia e influencia de la lengua alemana"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -191,7 +191,7 @@
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="317"></int>
+                  <int value="324"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -205,7 +205,7 @@
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="4_111_2.14"></unicode>
+                <unicode value="4_111_2.15"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -216,7 +216,7 @@
                   <string role="key" value="_storageName"></string>
                   <string value="willkommen.jpg"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="c:\\users\\maria\\appdata\\local\\temp\\tmp7lip3n\\willkommen.jpg"></string>
+                  <string value="c:\\users\\maria\\appdata\\local\\temp\\tmpqffip3\\willkommen.jpg"></string>
                   <string role="key" value="checksum"></string>
                   <string value="0fb402bec95c8f329a3e4bc1bd1fcefa"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -245,7 +245,7 @@
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="15"></int>
+           <int value="16"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -809,7 +809,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="311"></int>
+                     <int value="318"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -823,7 +823,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="10_117_2.15"></unicode>
+                   <unicode value="10_117_2.16"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="16">
                     <dictionary>
@@ -834,7 +834,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="guia.jpg"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmp7lip3n\\guia.jpg"></string>
+                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmpqffip3\\guia.jpg"></string>
                      <string role="key" value="checksum"></string>
                      <string value="cc96e07517ddc1d7d42ca1075fd3ac31"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -863,7 +863,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="16"></int>
+              <int value="17"></int>
               <string role="key" value="parentNode"></string>
               <reference key="15"></reference>
              </dictionary>
@@ -989,7 +989,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="312"></int>
+                     <int value="319"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1003,7 +1003,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="37_112_2.3"></unicode>
+                   <unicode value="37_112_2.4"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="19">
                     <dictionary>
@@ -1014,7 +1014,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="guia_del_curso.pdf"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmp7lip3n\\guia_del_curso.pdf"></string>
+                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmpqffip3\\guia_del_curso.pdf"></string>
                      <string role="key" value="checksum"></string>
                      <string value="9806f880c203e0e204618331881927d2"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1043,7 +1043,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="4"></int>
+              <int value="5"></int>
               <string role="key" value="parentNode"></string>
               <reference key="15"></reference>
              </dictionary>
@@ -1172,7 +1172,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="313"></int>
+                     <int value="320"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1186,7 +1186,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="15_122_2.2"></unicode>
+                   <unicode value="15_122_2.3"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="22">
                     <dictionary>
@@ -1197,7 +1197,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="Guion_de_practicas.pdf"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmp7lip3n\\Guion_de_practicas.pdf"></string>
+                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmpqffip3\\Guion_de_practicas.pdf"></string>
                      <string role="key" value="checksum"></string>
                      <string value="cbc159da11f92020b8c31c37425229ce"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1226,7 +1226,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="3"></int>
+              <int value="4"></int>
               <string role="key" value="parentNode"></string>
               <reference key="15"></reference>
              </dictionary>
@@ -1519,7 +1519,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="315"></int>
+                     <int value="322"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1533,7 +1533,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="16_123_2.15"></unicode>
+                   <unicode value="16_123_2.16"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="28">
                     <dictionary>
@@ -1544,7 +1544,7 @@
                      <string role="key" value="_storageName"></string>
                      <string value="Tema_1.pdf"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmp7lip3n\\Tema_1.pdf"></string>
+                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmpqffip3\\Tema_1.pdf"></string>
                      <string role="key" value="checksum"></string>
                      <string value="a72781eabd29112c166efc6e9fff21c3"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -1573,7 +1573,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="16"></int>
+              <int value="17"></int>
               <string role="key" value="parentNode"></string>
               <reference key="25"></reference>
              </dictionary>
@@ -1995,7 +1995,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="316"></int>
+                     <int value="323"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -2009,7 +2009,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="19_108_2.15"></unicode>
+                   <unicode value="19_108_2.16"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="36">
                     <dictionary>
@@ -2020,7 +2020,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
                      <string role="key" value="_storageName"></string>
                      <string value="Tema_2.pdf"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmp7lip3n\\Tema_2.pdf"></string>
+                     <string value="c:\\users\\maria\\appdata\\local\\temp\\tmpqffip3\\Tema_2.pdf"></string>
                      <string role="key" value="checksum"></string>
                      <string value="7a810248c0fdbdb811168b22be7b4396"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -2049,7 +2049,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="16"></int>
+              <int value="17"></int>
               <string role="key" value="parentNode"></string>
               <reference key="33"></reference>
              </dictionary>
@@ -3654,7 +3654,7 @@ reflective feedback)."></unicode>
                       <instance class="exe.engine.field.TextField">
                        <dictionary>
                         <string role="key" value="_id"></string>
-                        <int value="314"></int>
+                        <int value="321"></int>
                         <string role="key" value="_idevice"></string>
                         <none></none>
                         <string role="key" value="_instruc"></string>
@@ -3668,7 +3668,7 @@ reflective feedback)."></unicode>
                        </dictionary>
                       </instance>
                       <string role="key" value="_id"></string>
-                      <unicode value="33_108_2.2"></unicode>
+                      <unicode value="33_108_2.3"></unicode>
                       <string role="key" value="_imageResource"></string>
                       <instance class="exe.engine.resource.Resource" reference="65">
                        <dictionary>
@@ -3679,7 +3679,7 @@ reflective feedback)."></unicode>
                         <string role="key" value="_storageName"></string>
                         <string value="Presencia_en_la_UE.pdf"></string>
                         <string role="key" value="_userName"></string>
-                        <string value="c:\\users\\maria\\appdata\\local\\temp\\tmp7lip3n\\Presencia_en_la_UE.pdf"></string>
+                        <string value="c:\\users\\maria\\appdata\\local\\temp\\tmpqffip3\\Presencia_en_la_UE.pdf"></string>
                         <string role="key" value="checksum"></string>
                         <string value="4655a8276afc96c268fcbc0d3b9604e5"></string>
                         <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -3708,7 +3708,7 @@ reflective feedback)."></unicode>
                  <string role="key" value="intlinks_to_anchors"></string>
                  <dictionary></dictionary>
                  <string role="key" value="nextImageId"></string>
-                 <int value="3"></int>
+                 <int value="4"></int>
                  <string role="key" value="parentNode"></string>
                  <reference key="62"></reference>
                 </dictionary>
@@ -3789,7 +3789,7 @@ reflective feedback)."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="8"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -3820,7 +3820,7 @@ reflective feedback)."></unicode>
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="Curso"></unicode>
+    <unicode value="Curso: Historia e influencia de la lengua alemana"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -4141,7 +4141,7 @@ reflective feedback)."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Curso"></string>
+           <string value="Curso: Historia e influencia de la lengua alemana"></string>
           </dictionary>
          </instance>
         </list>
@@ -4737,7 +4737,7 @@ reflective feedback)."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Curso"></string>
+           <string value="Curso: Historia e influencia de la lengua alemana"></string>
           </dictionary>
          </instance>
         </list>
