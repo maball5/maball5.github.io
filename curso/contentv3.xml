@@ -299,7 +299,7 @@
       <instance class="exe.engine.node.Node" reference="8">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value=" 🏠 Inicio"></unicode>
+        <unicode value="Inicio"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="6">
@@ -700,7 +700,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:%20%F0%9F%8F%A0%20Inicio"></string>
+        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:Inicio"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -712,7 +712,7 @@
       <instance class="exe.engine.node.Node" reference="15">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="🔎 Guía del curso"></unicode>
+        <unicode value="Guía del curso"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="13">
@@ -1270,7 +1270,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:%F0%9F%94%8E%20Gu%C3%ADa%20del%20curso"></string>
+        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:Gu%C3%ADa%20del%20curso"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1282,7 +1282,7 @@
       <instance class="exe.engine.node.Node" reference="25">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="📌 Tema 1 - Las lenguas indoeuropeas"></unicode>
+        <unicode value="Tema 1 - Las lenguas indoeuropeas"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="23">
@@ -1743,7 +1743,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:%F0%9F%93%8C%20Tema%201%20-%20Las%20lenguas%20indoeuropeas"></string>
+        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:Tema%201%20-%20Las%20lenguas%20indoeuropeas"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1755,7 +1755,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
       <instance class="exe.engine.node.Node" reference="33">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="📌 Tema 2 - La rama lingüística germánica"></unicode>
+        <unicode value="Tema 2 - La rama lingüística germánica"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="31">
@@ -2853,7 +2853,7 @@ clicking the red X next to the option."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:%F0%9F%93%8C%20Tema%202%20-%20La%20rama%20ling%C3%BC%C3%ADstica%20germ%C3%A1nica"></string>
+        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:Tema%202%20-%20La%20rama%20ling%C3%BC%C3%ADstica%20germ%C3%A1nica"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2865,7 +2865,7 @@ clicking the red X next to the option."></unicode>
       <instance class="exe.engine.node.Node" reference="52">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="📌 Tema 3 - Influencia del alemán"></unicode>
+        <unicode value="Tema 3 - Influencia del alemán"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="50">
@@ -3420,7 +3420,7 @@ reflective feedback)."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:%F0%9F%93%8C%20Tema%203%20-%20Influencia%20del%20alem%C3%A1n"></string>
+        <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:Tema%203%20-%20Influencia%20del%20alem%C3%A1n"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3752,7 +3752,7 @@ reflective feedback)."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:%F0%9F%93%8C%20Tema%203%20-%20Influencia%20del%20alem%C3%A1n:Situaci%C3%B3n%20del%20alem%C3%A1n%20en%20la%20Uni%C3%B3n%20Europea"></string>
+           <string value="exe-node:Historia%20e%20influencia%20de%20la%20lengua%20alemana:Tema%203%20-%20Influencia%20del%20alem%C3%A1n:Situaci%C3%B3n%20del%20alem%C3%A1n%20en%20la%20Uni%C3%B3n%20Europea"></string>
            <string role="key" value="parent"></string>
            <reference key="52"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3789,7 +3789,7 @@ reflective feedback)."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="4"></reference>
+  <reference key="52"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
