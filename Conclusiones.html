@@ -1,0 +1,67 @@
+<html>
+    <head>
+    	<link rel="stylesheet" href="dist/reset.css">
+        <link rel="stylesheet" href="dist/reveal.css">
+        <link rel="stylesheet" href="dist/theme/sky.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+	<section data-background-color="#316BCD">
+	<h2><font color="#D4CA9D" style="font-weight: bold">Conclusiones del proyecto final</font></h1>
+  <hr>
+	<h3><font color="white" style="font-weight: bold">María Ballesteros Cózar</font></h2>
+	</section>
+
+			<section data-transition="fade-in slide-out">
+				<section data-background="images/marmol.jpg">
+					<h2><font color="#316BCD" style="font-weight: bold">Ventajas e inconvenientes</font></h2>
+				</section>
+				<section data-background-color= "white">
+					<h3><font color="green" style="font-weight: bold">Ventajas</font></h3><hr><br>
+					<ul>
+						<li class="fragment fade-up">Utilizar <font color="green">markdown</font> es una forma rápida de <font style="font-weight: bold">crear documentos</font></li><br>
+						<li class="fragment fade-up">Uso de una <font style="font-weight: bold">sintaxis sencilla (fácil de aprender)</font> en comparación con HTML</li><br>
+						<li class="fragment fade-up">Es rápido cambiar el <font style="font-weight: bold">formato del texto</font> (palabras en cursiva, negrita, etc)</li>
+					</ul>
+				</section>
+				<section data-background-color= "white">
+					<h3><font color="green" style="font-weight: bold">Ventajas</font></h3><hr><br>
+					<ul>
+	              		<li class="fragment fade-up"><font color="black">Es muy sencillo cambiar el tipo de fichero, convertir un <font style="font-weight: bold">.md en un .pdf o en un .epub</font></font></li><br>
+	              		<li class="fragment fade-up"><font color="green">Reveal.js:</font> se pueden conseguir presentaciones con muy buena estética</li><br>
+	              		<li class="fragment fade-up">Fácil de subir y compartir proyectos por <font style="font-weight: bold">Github</font></li>
+					</ul>
+				</section>
+				<section data-background-color= "white">
+					<h3><font color="red" style="font-weight: bold">Inconvenientes</font></h3><hr><br>
+					<ul>
+						<li class="fragment fade-up">A veces es complicado <font style="font-weight: bold">alinear</font> los elementos usando <font color="red">Markdown</font></li><br>
+						<li class="fragment fade-up">No está tan <font style="font-weight: bold">estandarizado</font> como HTML</li><br>
+						<li class="fragment fade-up">Es necesario <font style="font-weight: bold">tener conocimientos de código</font> sobre todo para crear presentaciones con <font color="red">reveal.js (uso de HTML)</font></li><br>
+					</ul>
+				</section>
+			</section>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/menu/menu.js"></script>
+	
+        <script>
+            Reveal.initialize({
+            	slideNumber: true,
+            	autoPlayMedia: true,
+            	controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+            	plugins: [ RevealMarkdown, RevealMenu, RevealZoom ],
+            });
+        </script>
+    </body>
+</html>
