@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+		<head>
+			<meta charset="utf-8">
+			<title>Proyecto LEIA puntuación</title>
+			<link rel="stylesheet" href="dist/reset.css">
+		    <link rel="stylesheet" href="dist/reveal.css">
+		   	<link rel="stylesheet" href="dist/theme/beige.css">   	
+		</head>
+		<body>
+    		<div class="reveal">
+        		<div class="slides">
+
+	    <section data-background-color="#900C3F">
+		<h2><font color="#D4CA9D">Automatización de respuestas a las dudas de puntuación más frecuentes dirigidas a la RAE en Twitter</font></h2>
+		<h3><font color="#0E2345">Propuesta de un asistente conversacional</font></h3>
+		<hr>
+		<h4>María Ballesteros Cózar y Sandra Miguel Juan</h4>
+		</section>
+
+		<section data-background-color= "#D4CA9D">
+			<h2 style="font-weight: bold; color: #900C3F">Índice de contenidos</h2><br>
+			<ol>
+				<li><a href="#/2" style="color:#0E2345; font-weight: bold;">Introducción</a></li><br>
+				<li><a href="#/3" style="color:#0E2345; font-weight: bold;">Motivación</a></li><br>
+				<li><a href="#/4" style="color:#0E2345; font-weight: bold;">Objetivos</a></li><br>
+				<li><a href="#/5" style="color:#0E2345; font-weight: bold;">Desarrollo del trabajo: metodología</a></li><br>
+				<li><a href="#/6" style="color:#0E2345; font-weight: bold;">Valoración de resultados y conclusiones</a></li><br>
+			</ol>			
+		</section>
+
+		<section data-transition="fade-in slide-out">
+			<section id="2" data-background="images/paper.jpeg">
+				<h2><font color="#900C3F" style="font-weight: bold">1. Introducción</font></h2>				
+			</section>
+			
+			<section> 
+				<h3><font style="color:#900C3F; font-weight: bold">Introducción</font></h3>
+					<hr>
+				<ul>
+					<li class="fragment fade-up">Relaciones entre las nuevas tecnologías y el campo de las <font style="font-weight: bold">Humanidades</font> y la <font style="font-weight: bold">Lingüística.</font></li><br>
+					<li class="fragment fade-up">Se toman como referencia dos grandes instituciones: <font style="color:#123774; font-weight: bold" class="fragment fade-up">Real Academia Española</font> y <font style="color:#123774; font-weight: bold" class="fragment fade-up">Telefónica.</font></li><br>
+					<li class="fragment fade-up">Propuesta de innovación: <font style="color:#900C3F; font-weight: bold" class="fragment fade-up">Proyecto LEIA</font><br> (Lengua Española e Inteligencia Artificial).</li>
+				</ul>
+            </section>
+				
+			<section>
+				<img class="fragment fade-up" src="images/leia.jpg" alt="Proyecto LEIA" width="450px">
+				<p class="fragment grow"><font color="#900C3F" style="font-weight: bold">Objetivo:</font> defensa y buen uso del español dentro del universo digital</p>
+	        </section>
+	    </section>
+
+	    <section data-transition="fade-in slide-out">
+	    	<section id="3" data-background="images/paper.jpeg">
+				<h2><font color="#900C3F" style="font-weight: bold">2. Motivación</font></h2>				
+			</section>
+	        <section data-transition="zoom">
+	        	
+	             <h3><font style="color:#900C3F; font-weight: bold">Motivación</font></h3>
+	             <hr>
+	             <ul>
+	             	<li class="fragment fade-up" style="text-align: justify;">Esta propuesta nos ha ofrecido la posibilidad de <font color="#900C3F" style="font-weight: bold">colaborar</font> con dos entidades de enorme prestigio tanto a nivel nacional como internacional.</li>
+	             	<br>
+	             	<li class="fragment fade-up" style="text-align: justify;">A través de nuestra investigación, hemos llevado a la práctica distintos <font color="#900C3F" style="font-weight: bold">conocimientos adquiridos</font> en el Máster Universitario en Letras Digitales.</li>
+	             </ul>
+			</section>
+		</section>
+		<section>
+			<section id="4" data-background="images/paper.jpeg">
+				<h2><font color="#900C3F" style="font-weight: bold">3. Objetivos</font></h2>				
+			</section>
+
+			<section data-transition="concave">
+				<h3><font style="color:#900C3F; font-weight: bold">Objetivos</font></h3><hr>
+				<br>
+				<ul>
+					<li style="text-align: justify;" class="fragment shrink">Nuestro trabajo trata de <font style="font-weight: bold">cubrir las necesidades</font> de las Humanidades Digitales.</li>
+					<br>
+					<li style="text-align: justify;" class="fragment fade-up"><font style="color:#900C3F; font-weight: bold">Objetivo principal:</font> análisis de las consultas sobre puntuación de la lengua española recibidas por la RAE en Twitter para <font style="font-weight: bold">recopilarlas</font>, <font style="font-weight: bold">clasificarlas</font> y <font style="font-weight: bold">generar una herramienta</font> a partir de dos motores cognitivos que proporcione respuestas automáticas a los usuarios.</li>
+				</ul>
+			</section>
+			<section data-transition="zoom">
+				<h3><font style="color:#900C3F; font-weight: bold">Objetivos</font></h3><hr>
+				<br>
+				<ul>
+					<li class="fragment fade-up" style="text-align: justify;">Nuestra contribución se basa en la <font style="font-weight: bold; color:#900C3F">construcción de un asistente conversacional</font> al cual se pueda acudir en busca de respuestas relacionadas con puntuación.</li><br>
+					<li class="fragment fade-up" style="text-align: justify;">Para ello, decidimos recurrir a la utilización de dos motores cognitivos específicos de Inteligencia Artificial: <font style="font-weight: bold; color:#123774" class="fragment fade-up">Dialogflow</font> e <font style="font-weight: bold; color:#123774" class="fragment fade-up">IBM Watson Assistant.</font></li>
+				</ul>			
+			</section>
+
+		</section>
+
+		<section data-transition="fade-in slide-out">
+			<section id="3"data-background="images/paper.jpeg">
+				<h2><font color="#900C3F" style="font-weight: bold">4. Desarrollo del trabajo: metodología</font></h2>
+			</section>
+			<section>
+				<h3><font color="#900C3F" style="font-weight: bold">Desarrollo del trabajo: metodología</font></h3>
+				<hr>
+				<br>
+				<ol>
+					<li class="fragment fade-up" style="text-align: justify;">Obtención del <font style="font-weight: bold; color:#123774">corpus</font> y <font style="font-weight: bold; color:#123774">análisis con Python</font></li><br>
+					<li class="fragment fade-up" style="text-align: justify;">Extracción de <font style="font-weight: bold; color:#123774">dudas sobre puntuación</font> y estudio de los datos: proceso de categorización</li><br>
+					<li class="fragment fade-up" style="text-align: justify;"><font style="font-weight: bold; color:#123774">Implementación en los motores:</font> Dialogflow e IBM Watson Assistant</li>
+				</ol>
+			</section>
+			<section data-transition="fade">
+				<h3><font style="color:#123774">1. Obtención del corpus y análisis con Python</font></h3><br>
+				<ul>
+					<li class="fragment fade-up" style="text-align: justify;">Contamos con la colaboración de la Universidad Complutense de Madrid</li><br>
+					<li class="fragment fade-up" style="text-align: justify;">Almacenamos <font color="#900C3F" style="font-weight: bold">30.000 tuits</font>, comprendiendo los meses de diciembre del año 2020 a febrero del 2021</li><br>
+					<li class="fragment fade-up" style="text-align: justify;">Los datos se almacenaron en ficheros Excel, dispuestos en orden cronológico</li>
+				</ul>
+			</section>
+			<section data-transition="fade">
+				<p>Tras la obtención del corpus, procedimos a analizar los datos mediante el lenguaje de programación Python en la plataforma en línea <font color="#900C3F" style="font-weight: bold">Google Colab</font>.</p><br>
+				<p class="fragment highlight-blue" style="font-weight: bold">Realizamos las siguientes funciones:</p>
+				<ol>
+					<li style="text-align: justify;"><font style="font-weight: bold; color:#A65C2E">Limpieza de datos: </font><em>quitarLinks</em> y <em>stopwords</em></li>
+					<li><font style="font-weight: bold; color:#A65C2E">Detección de tópicos:</font><em> estaPalabraEnFrase</em> y <em>algunaEnFrase</em></li>
+					<li style="text-align: justify;"><font style="font-weight: bold; color:#A65C2E">Organización de la información</font> en los siguientes cuatro grupos:<br><font style="font-weight: bold; color: #900C3F">#DudaRAE</font>, <font style="font-weight: bold; color: #900C3F">#RAEconsultas</font>, <font style="font-weight: bold; color: #900C3F">puntuación</font> y <font style="font-weight: bold; color: #900C3F">resto</font>.</li>
+				</ol>
+			</section>
+			<section data-transition="fade-in slide-out">
+				<img src="images/nubeDudaRAE.png" alt="Nube dudas a la RAE" width="580px" class="fragment fade-up">
+				<p><font style="font-weight: bold; color:#900C3F">Nube de palabras de #DudaRAE</font></p>
+			</section>
+
+			<section>
+				<img src="images/nubeRAEConsulta.png" alt="Nube respuestas de la RAE" width="580px" class="fragment fade-up">
+				<p><font style="font-weight: bold; color:#900C3F">Nube de palabras de #RAEconsultas</font></p>
+			</section>
+
+			<section>
+				<img src="images/puntuacion.png" alt="Dudas puntuación" width="390px" class="fragment fade-up">
+				<p><font style="font-weight: bold; color:#900C3F">Nube de palabras sobre puntuación</font></p>
+			</section>
+
+			<section>
+				<img src="images/resto.png" alt="Resto" width="600px" class="fragment fade-up">
+				<p><font style="font-weight: bold; color:#900C3F">Nube de palabras de resto</font></p>
+			</section>
+
+			<section>
+				<h3><font style="color:#123774">2. Extracción de dudas sobre puntuación<br> y estudio de los datos: proceso de categorización</font></h3>
+				<hr><br>
+				<ul>
+					<li style="text-align: justify;">Con el análisis de los datos compiilamos un total de <font style="font-weight: bold; color:#900C3F">621 consultas</font> sobre la puntuación de la lengua española en la red social Twitter.</li><br>
+					<li style="text-align: justify;">Así, realizamos manualmente el estudio del contenido de cada una de ellas a fin de detectar su tipología -> <font style="font-weight: bold; color:#900C3F">proceso de categorización.</font></li>
+				</ul>
+			</section>
+
+			<section>
+				<h3><font style="color:#900C3F"> Proceso de categorización</font></h3>
+				<hr><br>
+				<ol>
+					<li><font style="font-weight: bold">Análisis lingüístico</font> de cada pregunta</li><br>
+					<li style="text-align: justify;">Búsqueda de las <font style="font-weight: bold">respuestas generadas por la RAE</font> para cada consulta</li><br>
+					<li style="text-align: justify;">Elaborar una <font style="font-weight: bold">respuesta válida común</font> a cada grupo, con miras a aplicarlo a los intents de nuestros chatbots: <font style="font-weight: bold; color:#123774">RAEcitoFlow</font> y <font style="font-weight: bold; color:#123774">RAEcitoWatson</font></li>
+				</ol>
+			</section>
+			<section>
+				<h3>Aspectos decisivos en el proceso <br>de selección de consultas:</h3>
+				<ol>
+					<li style="text-align: justify;">Consulta referida a aspectos sobre la <font style="font-weight: bold;color:#900C3F">puntuación</font> de la lengua española</li><br>
+					<li><font style="font-weight: bold;color:#900C3F">Una pregunta</font> por consulta</li><br>
+					<li style="text-align: justify;">Pregunta clara y concisa, pero <font style="font-weight: bold;color:#900C3F">sin ejemplos concretos</font> de uso ni inserción de textos</li><br>
+					<li style="text-align: justify;">Contenido apto para <font style="font-weight: bold;color:#900C3F">sintetizarse en una respuesta general</font></li>
+				</ol>
+			</section>
+			<section>
+				<img src="images/categorias.png" width="880px">
+			</section>
+			<section>
+				<h3><font style="color:#123774">3. Implementación en los motores<br> Dialogflow e IBM Watson Assistant</font></h3>
+				<hr>
+				<ul>
+					<li style="text-align: justify">Tomamos como referencia las diferentes categorías para la realización del desarrollo lingüístico de los motores cognitivos: <font style="font-weight: bold">intenciones</font> del usuario, <font style="font-weight: bold">palabras clave</font> y <font style="font-weight: bold">nodos de diálogo.</font></li><br>
+					<li>Nuestro chatbot también cuenta con una pequeña sección de <em>ChitChat</em> o <em>Small Talk</em>. Esta parte es más informal y nos ayuda a dotar de personalidad y de rasgos más humanos a nuestro robot.</li>
+				</ul>
+			</section>
+			<section>
+				<p style="text-align: justify">De esta manera, RAEcito es capaz de responder a los saludos, despedidas, preguntas sobre su identidad, peticiones de ayuda y agradecimientos.</p><br>
+				<ul>
+					<li><em><font style="font-weight: bold">Intents</font></em>: corresponde a la intención del usuario.</li>
+					<p><em><font style="font-weight: bold" class="fragment highlight-red">FAQs</font></em>: hacen referencia a las preguntas frecuentes sobre puntuación</p>
+					<p><em><font style="font-weight: bold" class="fragment highlight-red">ST</font></em>: hacen referencia a la charla informal</p>
+				</ul>
+				<p>Ejemplo: <font style="color:#982EA6">FAQs_EMOJI</font>, <font style="color:#982EA6">FAQs_COMA</font>, <font style="color:#982EA6">FAQs_COMA_SUJ</font>, <font style="color:#982EA6">ST-Saludos</font>, <font style="color:#982EA6">ST-Gracias.</font></p>
+			</section>
+			<section>
+				<ul>
+					<li><em><font style="font-weight: bold">Entities</font></em>: corresponde a las palabras clave.</li>
+					<p>Han sido creadas hasta 18 entidades</p>
+					<p>Van asociadas a una o más intenciones</p>
+					<p>Cada una está formada por un parámetro o valor, <br>que a su vez contiene sinónimos</p>
+				</ul>
+				<img src="images/ejentidad.png" width="650px" align="center">
+			</section>
+			<section>
+				<ul>
+					<li><font style="font-weight: bold">Nodos de diálogo:</font> corresponde a las respuestas que el chatbot proporciona al usuario.</li>
+					<p>Cada nodo está asociado a cada <em>intent</em></p>
+				</ul>
+				<p style="text-align: left">Ejemplo de respuesta:</p>
+				<p style="text-align: justify; font-weight: bold" class="fragment highlight-blue">"No es correcto separar el sujeto y el predicado con una coma, aunque el sujeto sea complejo. Tampoco cuando el sujeto es una oración de relativo sin antecedente expreso. Por ejemplo: «El que la sigue la consigue»".</p>
+			</section>
+		</section>
+		<section data-transition="fade-in slide-out">
+			<section id="4"data-background="images/paper.jpeg">
+				<h2><font color="#900C3F" style="font-weight: bold">5. Valoración de resultados y conclusiones</font></h2>
+			</section>
+			<section data-transition="concave">
+				<h3><font color="#900C3F" style="font-weight: bold">Valoración de resultados: RAEcitoflow</font></h3>
+				<img src="images/DF.png" alt="Resultados RAEcitoflow" width="700px" class="fragment fade-left">
+			</section>
+			<section>
+				<h3><font color="#900C3F" style="font-weight: bold">Valoración de resultados: RAEcitowatson</font></h3>
+				<img src="images/WT.png" alt="Resultados RAEcitowatson" width="700px" class="fragment fade-right">
+			</section>
+
+			<section data-transition="convex">
+				<h3><font color="#900C3F" style="font-weight: bold">Conclusiones</font></h3>
+				<hr>
+				<ul>
+					<li style="text-align: left"><font style="font-weight: bold; color:#123774">Instituciones:</font></li>
+				</ul>
+				<p style="text-align: justify">Tras observar la necesidad de adaptación de las instituciones a un mundo moderno, decidimos orientar nuestro trabajo hacia el desarrollo de un chatbot que respondiese a las dudas más frecuentes de los usuarios.</p><br>
+				<p style="text-align: justify" class="fragment fade-up"><font style="font-weight: bold; color:#1B733E">Ventajas:</font> incorporación de la Real Academia Española al mundo digital, ahorro de tiempo y esfuerzos. <br>A la vez ayuda a los hablantes a comunicarse en un correcto español.</p>
+			</section>
+			<section>
+				<ul>
+					<li style="text-align: left"><font style="font-weight: bold; color:#123774">Límites de la automatización:</font></li>
+				</ul>
+				<p style="text-align: justify">Uno de los aspectos en los que hemos reparado  corresponde a la problemática de los procesos de automatización.</p><br>
+				<p style="text-align: justify" class="fragment fade-up"><font style="font-weight: bold; color:#A93226">Limitaciones:</font> Hemos detectado ciertas dificultades en lo que respecta a la interpretación del discurso y usos del lenguaje, como la función referencial y contextual.</p>
+				<p style="text-align: justify" class="fragment fade-up"><font style="font-weight: bold">Literalidad</font> del sistema de interpretación del lenguaje de programación Python.</p>
+			</section>
+			<section data-transition="fade">
+				<ul>
+					<li style="text-align: left"><font style="font-weight: bold; color:#123774">Resultados de ambas plataformas:</font></li>
+				</ul>
+				<p style="text-align: justify">En cuanto a los resultados obtenidos de los motores cognitivos de <font style="font-weight: bold">Dialogflow</font> e <font style="font-weight: bold">IBM Watson Assistant</font>, llegamos a la conclusión de que son realmente similares, además de óptimos.</p><br>
+				<p style="text-align: justify" class="fragment fade-up"><font style="font-weight: bold; color:#1B733E">Ventajas:</font> ambos <font style="font-weight: bold">superan el 90%</font> en términos de <em>f1 score</em>.</p>
+				<p style="text-align: justify" class="fragment fade-up">Se consideran métodos efectivos para la construcción de un asistente conversacional, teniendo en cuenta la importancia de la calidad de su entrenamiento y las pruebas realizadas posteriormente.</p>
+			</section>
+			<section>
+				<p style="text-align: justify"><font style="font-weight: bold; color:#C69D1E">Posibles mejoras:</font></p>
+				<p style="text-align: justify" class="fragment fade-up">- Incorporación de un <font color="#900C3F" style="font-weight: bold">mayor número</font> de preguntas frecuentes</p>
+				<p style="text-align: justify" class="fragment fade-up">- <font color="#900C3F" style="font-weight: bold">Perfeccionamiento</font> de la charla informal del chatbot, dotándole de más personalidad</p>
+				<p style="text-align: justify" class="fragment fade-up">- Elaboración de <font color="#900C3F" style="font-weight: bold">respuestas más específicas</font></p>
+				<p style="text-align: justify" class="fragment fade-up">- Mejoras en la <font color="#900C3F" style="font-weight: bold">capacidad comunicativa del chatbot:</font> comprensión de conversaciones complejas, ejemplos concretos y corrección de textos</p>
+				<p style="text-align: justify" class="fragment fade-up">- Realización de <font color="#900C3F" style="font-weight: bold">auditorías periódicas</font> una vez que entrase en funcionamiento</p>
+			</section>
+			<section>
+				<p>El hecho de haber desarrollado nuestro asistente conversacional en dos plataformas distintas no solo nos dio la oportunidad de comparar los resultados, sino que, además, da la opción de la flexibilidad, pudiendo elegir entre las dos plataformas si en un futuro se plantease continuar con el desarrollo del proyecto.</p>
+			</section>
+			<section>
+				<h2>Muchas gracias por su atención</h2>
+			</section>
+			<section>
+				<h3><font color="#900C3F" style="font-weight: bold">Bibliografía</font></h3>
+				<img src="images/Bib1.png" alt="Bibliografía 1" width="1000px">
+			</section>
+			<section>
+				<img src="images/Bib2.png" alt="Bibliografía 2" width="1000px">
+			</section>
+			<section>
+				<img src="images/Bib3.png" alt="Bibliografía 3" width="1000px">
+			</section>
+			<section>
+				<img src="images/Bib4.png" alt="Bibliografía 4" width="1000px">
+			</section>
+		</section>
+	</div>
+</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="js/menu.js"></script>
+
+	
+		        <script>
+		            Reveal.initialize({
+		            	slideNumber: true,
+		            	autoPlayMedia: true,
+		            	controls: true,
+						progress: true,
+						center: true,
+						hash: true,
+		            	plugins: [ RevealMenu, RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]             
+		            });
+		        </script>
+
+		</body>
+</html>
