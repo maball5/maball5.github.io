@@ -107,7 +107,7 @@
 			<section data-transition="fade">
 				<h3><font style="color:#123774">1. Obtención del corpus y análisis con Python</font></h3><br>
 				<ul>
-					<li class="fragment fade-up" style="text-align: justify;">Contamos con la colaboración de la Universidad Complutense de Madrid</li><br>
+					<li class="fragment fade-up" style="text-align: justify;">Contamos con la colaboración del profesor Rafael Caballero Roldán de la Universidad Complutense de Madrid</li><br>
 					<li class="fragment fade-up" style="text-align: justify;">Almacenamos <font color="#900C3F" style="font-weight: bold">30.000 tuits</font>, comprendiendo los meses de diciembre del año 2020 a febrero del 2021</li><br>
 					<li class="fragment fade-up" style="text-align: justify;">Los datos se almacenaron en ficheros Excel, dispuestos en orden cronológico</li>
 				</ul>
@@ -145,7 +145,7 @@
 				<h3><font style="color:#123774">2. Extracción de dudas sobre puntuación<br> y estudio de los datos: proceso de categorización</font></h3>
 				<hr><br>
 				<ul>
-					<li style="text-align: justify;">Con el análisis de los datos compiilamos un total de <font style="font-weight: bold; color:#900C3F">621 consultas</font> sobre la puntuación de la lengua española en la red social Twitter.</li><br>
+					<li style="text-align: justify;">Con el análisis de los datos compilamos un total de <font style="font-weight: bold; color:#900C3F">621 consultas</font> sobre la puntuación de la lengua española en la red social Twitter.</li><br>
 					<li style="text-align: justify;">Así, realizamos manualmente el estudio del contenido de cada una de ellas a fin de detectar su tipología -> <font style="font-weight: bold; color:#900C3F">proceso de categorización.</font></li>
 				</ul>
 			</section>
@@ -156,7 +156,7 @@
 				<ol>
 					<li><font style="font-weight: bold">Análisis lingüístico</font> de cada pregunta</li><br>
 					<li style="text-align: justify;">Búsqueda de las <font style="font-weight: bold">respuestas generadas por la RAE</font> para cada consulta</li><br>
-					<li style="text-align: justify;">Elaborar una <font style="font-weight: bold">respuesta válida común</font> a cada grupo, con miras a aplicarlo a los intents de nuestros chatbots: <font style="font-weight: bold; color:#123774">RAEcitoFlow</font> y <font style="font-weight: bold; color:#123774">RAEcitoWatson</font></li>
+					<li style="text-align: justify;">Elaborar una <font style="font-weight: bold">respuesta válida común</font> a cada grupo, con miras a aplicarlo a los <em>intents</em> de nuestros chatbots: <font style="font-weight: bold; color:#123774">RAEcitoFlow</font> y <font style="font-weight: bold; color:#123774">RAEcitoWatson</font></li>
 				</ol>
 			</section>
 			<section>
@@ -175,7 +175,7 @@
 				<h3><font style="color:#123774">3. Implementación en los motores<br> Dialogflow e IBM Watson Assistant</font></h3>
 				<hr>
 				<ul>
-					<li style="text-align: justify">Tomamos como referencia las diferentes categorías para la realización del desarrollo lingüístico de los motores cognitivos: <font style="font-weight: bold">intenciones</font> del usuario, <font style="font-weight: bold">palabras clave</font> y <font style="font-weight: bold">nodos de diálogo.</font></li><br>
+					<li style="text-align: justify">Tomamos como referencia las diferentes categorías para la realización del desarrollo lingüístico de los motores cognitivos: <font style="font-weight: bold">intenciones</font> del usuario, <font style="font-weight: bold">palabras clave</font> y <font style="font-weight: bold">sistema de respuestas del chatbot.</font></li><br>
 					<li>Nuestro chatbot también cuenta con una pequeña sección de <em>ChitChat</em> o <em>Small Talk</em>. Esta parte es más informal y nos ayuda a dotar de personalidad y de rasgos más humanos a nuestro robot.</li>
 				</ul>
 			</section>
@@ -183,26 +183,28 @@
 				<p style="text-align: justify">De esta manera, RAEcito es capaz de responder a los saludos, despedidas, preguntas sobre su identidad, peticiones de ayuda y agradecimientos.</p><br>
 				<ul>
 					<li><em><font style="font-weight: bold">Intents</font></em>: corresponde a la intención del usuario.</li>
-					<p><em><font style="font-weight: bold" class="fragment highlight-red">FAQs</font></em>: hacen referencia a las preguntas frecuentes sobre puntuación</p>
-					<p><em><font style="font-weight: bold" class="fragment highlight-red">ST</font></em>: hacen referencia a la charla informal</p>
+					<p><em><font style="font-weight: bold" class="fragment highlight-red">FAQs</font></em>: hacen referencia a las preguntas frecuentes sobre puntuación (<font style="font-weight: bold" class="fragment highlight-red">25 <em>intents</em></font>).</p>
+					<p><em><font style="font-weight: bold" class="fragment highlight-red">ST</font></em>: hacen referencia a la charla informal (<font style="font-weight: bold" class="fragment highlight-red">5 <em>intents</em></font>).</p>
 				</ul>
-				<p>Ejemplo: <font style="color:#982EA6">FAQs_EMOJI</font>, <font style="color:#982EA6">FAQs_COMA</font>, <font style="color:#982EA6">FAQs_COMA_SUJ</font>, <font style="color:#982EA6">ST-Saludos</font>, <font style="color:#982EA6">ST-Gracias.</font></p>
+			</section>
+			<section>
+				<img src="images/categintent.PNG" width="770 px">
 			</section>
 			<section>
 				<ul>
 					<li><em><font style="font-weight: bold">Entities</font></em>: corresponde a las palabras clave.</li>
-					<p>Han sido creadas hasta 18 entidades</p>
-					<p>Van asociadas a una o más intenciones</p>
-					<p>Cada una está formada por un parámetro o valor, <br>que a su vez contiene sinónimos</p>
+					<p>Han sido creadas hasta 18 entidades.</p>
+					<p>Van asociadas a una o más intenciones.</p>
+					<p>Cada una está formada por un parámetro o valor, <br>que a su vez contiene sinónimos.</p>
 				</ul>
 				<img src="images/ejentidad.PNG" width="650px" align="center">
 			</section>
 			<section>
 				<ul>
-					<li><font style="font-weight: bold">Nodos de diálogo:</font> corresponde a las respuestas que el chatbot proporciona al usuario.</li>
-					<p>Cada nodo está asociado a cada <em>intent</em></p>
+					<li><font style="font-weight: bold">Sistema de respuestas del chatbot:</font> corresponde a cada una de las respuestas que el chatbot proporciona al usuario.</li>
+					<p>Cada respuesta está asociada a cada <em>intent</em>.</p>
 				</ul>
-				<p style="text-align: left">Ejemplo de respuesta:</p>
+				<p style="text-align: left">Ejemplo de respuesta: <em>FAQs_COMA_SUJ</em></p>
 				<p style="text-align: justify; font-weight: bold" class="fragment highlight-blue">"No es correcto separar el sujeto y el predicado con una coma, aunque el sujeto sea complejo. Tampoco cuando el sujeto es una oración de relativo sin antecedente expreso. Por ejemplo: «El que la sigue la consigue»".</p>
 			</section>
 		</section>
@@ -253,7 +255,7 @@
 				<p style="text-align: justify" class="fragment fade-up">- Realización de <font color="#900C3F" style="font-weight: bold">auditorías periódicas</font> una vez que entrase en funcionamiento</p>
 			</section>
 			<section>
-				<p>El hecho de haber desarrollado nuestro asistente conversacional en dos plataformas distintas no solo nos dio la oportunidad de comparar los resultados, sino que, además, da la opción de la flexibilidad, pudiendo elegir entre las dos plataformas si en un futuro se plantease continuar con el desarrollo del proyecto.</p>
+				<p class="fragment grow">El hecho de haber desarrollado nuestro asistente conversacional en dos plataformas distintas no solo nos dio la oportunidad de comparar los resultados, sino que, además, da la opción de la flexibilidad, pudiendo elegir entre las dos plataformas si en un futuro se plantease continuar con el desarrollo del proyecto.</p>
 			</section>
 			<section>
 				<h3><font color="#900C3F" style="font-weight: bold">Bibliografía</font></h3>
