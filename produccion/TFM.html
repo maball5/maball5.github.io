@@ -72,18 +72,17 @@
 
 			<section data-transition="concave">
 				<h3><font style="color:#900C3F; font-weight: bold">Objetivos</font></h3><hr>
-				<br>
 				<ul>
-					<li style="text-align: justify;" class="fragment shrink">Nuestro trabajo trata de <font style="font-weight: bold">cubrir las necesidades</font> de las Humanidades Digitales.</li>
+					<li style="text-align: justify;" class="fragment shrink">Nuestro trabajo trata de <font style="font-weight: bold">cubrir las necesidades</font> del siglo XXI, muy presentes en las Humanidades Digitales.</li>
 					<br>
-					<li style="text-align: justify;" class="fragment fade-up"><font style="color:#900C3F; font-weight: bold">Objetivo principal:</font> análisis de las consultas sobre puntuación de la lengua española recibidas por la RAE en Twitter para <font style="font-weight: bold">recopilarlas</font>, <font style="font-weight: bold">clasificarlas</font> y <font style="font-weight: bold">generar una herramienta</font> a partir de dos motores cognitivos que proporcione respuestas automáticas a los usuarios.</li>
+					<li style="text-align: justify;" class="fragment fade-up"><font style="color:#900C3F; font-weight: bold">Objetivo principal:</font> análisis de las consultas sobre puntuación de la lengua española recibidas por la RAE en Twitter para <font style="font-weight: bold">recopilarlas</font>, <font style="font-weight: bold">clasificarlas</font> e<font style="font-weight: bold"> implementarlas en una herramienta</font> que proporcione respuestas automáticas a los usuarios.</li>
 				</ul>
 			</section>
 			<section data-transition="zoom">
 				<h3><font style="color:#900C3F; font-weight: bold">Objetivos</font></h3><hr>
 				<br>
 				<ul>
-					<li class="fragment fade-up" style="text-align: justify;">Nuestra contribución se basa en la <font style="font-weight: bold; color:#900C3F">construcción de un asistente conversacional</font> al cual se pueda acudir en busca de respuestas relacionadas con puntuación.</li><br>
+					<li class="fragment fade-up" style="text-align: justify;">Nuestra contribución: <font style="font-weight: bold; color:#900C3F">construcción de un asistente conversacional</font> (con doble implementación) al cual se pueda acudir en busca de respuestas relacionadas con puntuación.</li><br>
 					<li class="fragment fade-up" style="text-align: justify;">Para ello, decidimos recurrir a la utilización de dos motores cognitivos específicos de Inteligencia Artificial: <font style="font-weight: bold; color:#123774" class="fragment fade-up">Dialogflow</font> e <font style="font-weight: bold; color:#123774" class="fragment fade-up">IBM Watson Assistant.</font></li>
 				</ul>			
 			</section>
@@ -117,7 +116,7 @@
 				<p class="fragment highlight-blue" style="font-weight: bold">Realizamos las siguientes funciones:</p>
 				<ol>
 					<li style="text-align: justify;"><font style="font-weight: bold; color:#A65C2E">Limpieza de datos: </font><em>quitarLinks</em> y <em>stopwords</em></li>
-					<li><font style="font-weight: bold; color:#A65C2E">Detección de tópicos:</font><em> estaPalabraEnFrase</em> y <em>algunaEnFrase</em></li>
+					<li><font style="font-weight: bold; color:#A65C2E">Detección de tópicos.</font><em> EstaPalabraEnFrase</em> y <em>algunaEnFrase</em>: «coma», «punto», «puntuar», «puntuación», «comilla». </li>
 					<li style="text-align: justify;"><font style="font-weight: bold; color:#A65C2E">Organización de la información</font> en los siguientes cuatro grupos:<br><font style="font-weight: bold; color: #900C3F">#DudaRAE</font>, <font style="font-weight: bold; color: #900C3F">#RAEconsultas</font>, <font style="font-weight: bold; color: #900C3F">puntuación</font> y <font style="font-weight: bold; color: #900C3F">resto</font>.</li>
 				</ol>
 			</section>
@@ -155,7 +154,7 @@
 				<hr><br>
 				<ol>
 					<li><font style="font-weight: bold">Análisis lingüístico</font> de cada pregunta</li><br>
-					<li style="text-align: justify;">Búsqueda de las <font style="font-weight: bold">respuestas generadas por la RAE</font> para cada consulta</li><br>
+					<li style="text-align: justify;">Búsqueda de las <font style="font-weight: bold">respuestas generadas por la RAE</font> para cada consulta (@RAEinforma)</li><br>
 					<li style="text-align: justify;">Elaborar una <font style="font-weight: bold">respuesta válida común</font> a cada grupo, con miras a aplicarlo a los <em>intents</em> de nuestros chatbots: <font style="font-weight: bold; color:#123774">RAEcitoFlow</font> y <font style="font-weight: bold; color:#123774">RAEcitoWatson</font></li>
 				</ol>
 			</section>
