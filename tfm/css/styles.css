@@ -141,9 +141,14 @@ body {
 
 .raecito{
   left: 50%;
-  margin-left: 28%;
+  margin-left: 35%;
 }
 
+.bot
+{
+  left: 50%;
+  margin-left: 50%;
+}
 
 hr {
   margin: 1rem 0;
