@@ -139,6 +139,17 @@ body {
   padding-bottom: 20px;
 }
 
+.raecito{
+  left: 50%;
+  margin-left: 50%;
+}
+
+.bot
+{
+  left: 50%;
+  margin-left: 85%;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
